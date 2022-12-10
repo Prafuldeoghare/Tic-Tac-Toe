@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Poppins:wght@300&display=swap');
+.App{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+section .container{
+  display: flex;
+  flex-direction: column;
+  margin-top:40px;
+}
+
+section .container .row{
+ display: flex;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+footer span{
+  font-size: 1.2em;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer button{
+  border: none;
+  width: 150px;
+  height:60px;
+  margin:20px;
+  background-color: #F77431;
+  color: #ffffff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+footer button:hover{
+  opacity: 0.8;
+}
